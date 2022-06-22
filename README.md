@@ -1,2 +1,2 @@
 # EntregaCoder1
-Código base HTML de mi pagina web.
+Código HTML y CSS de mi pagina web "A LOS GOLPES"
