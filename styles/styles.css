@@ -1,0 +1,433 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.principalhome {
+  margin: 0px;
+  padding: 0px;
+  
+  width: 1500px;
+  justify-content: end;
+}
+main {
+  margin: 0px;
+}
+
+.division {
+  margin: 0px;
+  padding: 0px;
+}
+.titulohome {
+  
+  font-size: 5em;
+  -webkit-text-stroke: 2px rgb(255, 4, 4);
+  color: aliceblue;
+}
+.listahome {
+  font-size: 2em;
+  list-style: none;
+}
+.listamarcas {
+  font-size: 2em;
+  list-style: none; 
+}
+.principalmarcas{
+  margin: 10px;
+  padding: 100px;
+  grid-area: main;
+}
+.principalgaleria{
+margin-left: 50px;
+}
+.principalinformacion{
+  margin: 10px;
+  padding: 100px;
+}
+.principalcontacto{
+  margin: 10px;
+  padding: 100px;
+}
+
+.fondohome {
+  background-image: url(https://images3.alphacoders.com/237/237229.jpg);
+  background-size: cover;
+  width: 1500px;                    
+}
+
+.encabezadohome {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.logofacebook {
+  max-width: 50px;
+  max-height: 50px;
+}
+.logoinstagram {
+  max-width: 50px;
+  max-height: 50px;
+}
+.logowp {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
+.piehome {
+  color: aliceblue;
+  align-items: baseline;
+  margin: 20px;
+  padding-top: 200px;
+  justify-content: end;
+  
+  
+}
+.listapie {
+  list-style: none;
+}
+
+.subtitulohome {
+  
+  font-size: 3em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke: 1px aliceblue;
+  color: red;
+  width: 1500px;
+  text-align: end;
+  
+}
+
+.sloganhome {
+  
+  font-size: 3em;
+  color: red;
+  
+  width: 1500px;
+  text-align: end;
+}
+
+
+
+
+li a:hover {
+  color: red;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: end;
+}
+
+ul li a {
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  text-align: end;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 10px;
+  
+}
+
+
+ul li a:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.fondomarcas {
+  background-image: url(https://fondosmil.com/fondo/14386.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  grid: template rows 1fr 2fr 1fr;
+  grid-template-areas: "header header"
+                       "main main"
+                       "footer footer";
+}
+.encabezadomarcas{
+  grid-area: header;
+}
+
+.titulomarcas {
+  color: red;
+  font-size: 4em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-stroke: 1px aliceblue;
+}
+
+.piemarcas {
+  color: aliceblue;
+  text-align: bottom;
+  background-color: rgb(28, 26, 26);
+  margin: 10px;
+  grid-area: footer;
+}
+
+.subtitulomarcas {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke: 2px red;
+  color: black;
+}
+
+
+.paginasmarcas {
+  text-align: end;
+  font-size: 2em;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+}
+h3 {
+  color: aliceblue;
+}
+.modeloguante {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 2em;
+  border-color: red;
+  border-style: solid;
+  
+  
+}
+.modeloguante:hover {
+  transform: scale(1.2);
+  transition: 1s;
+  
+}
+
+
+.fondogaleria {
+  background-image: url(https://fondosmil.com/fondo/14386.jpg);
+  background-size: cover;
+}
+.listagaleria {
+  font-size: 2em;
+  list-style: none; 
+}
+
+.titulogaleria {
+  color: red;
+  font-size: 4em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-stroke: 1px aliceblue;
+}
+
+.piegaleria {
+  color: aliceblue;
+  text-align: bottom;
+  background-color: rgb(28, 26, 26);
+  margin: 10px;
+}
+
+.subtitulogaleria {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke: 2px red;
+  color: black;
+}
+
+.paginasgaleria {
+  text-align: end;
+  font-size: 2em;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  
+}
+.listagaleria {
+  list-style: none;
+  display: inline;
+}
+.imagengaleria {
+  max-width: 700px;
+  max-height: 700px;
+  border-radius: 2em;
+  border-color: red;
+  border-style: solid;
+}
+
+
+.fondoinformacion {
+  background-image: url(https://fondosmil.com/fondo/14386.jpg);
+  background-size: cover;
+}
+
+.tituloinformacion {
+  color: red;
+  font-size: 4em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-stroke: 1px aliceblue;
+}
+
+.pieinformacion {
+  color: aliceblue;
+  text-align: bottom;
+  background-color: rgb(28, 26, 26);
+  margin: 10px;
+}
+
+.subtituloinformacion {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke: 2px red;
+  color: black;
+}
+
+
+.paginasinformacion {
+  text-align: end;
+  font-size: 2em;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+}
+
+.textoinformacion {
+  color: aliceblue;
+}
+
+p {
+  font-size: x-large;
+  font-family: cursive;
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+}
+
+.everlast {
+  color: blue;
+}
+
+.cletoreyes {
+  color: chartreuse;
+}
+
+.grant {
+  color: darkmagenta;
+}
+
+.proyec {
+  color: aqua;
+}
+
+.venum {
+  color: darkorange;
+}
+
+.winning {
+  color: mediumvioletred;
+}
+
+.fondocontacto {
+  background-image: url(https://fondosmil.com/fondo/14386.jpg);
+  background-size: cover;
+}
+
+.titulocontacto {
+  color: red;
+  font-size: 4em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-stroke: 1px aliceblue;
+}
+
+.piecontacto {
+  color: aliceblue;
+  background-color: rgb(28, 26, 26);
+  margin: 10px;
+}
+
+.subtitulocontacto {
+  text-align: center;
+  font-size: 5em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-text-stroke: 2px red;
+  color: black;
+}
+
+
+.paginascontacto {
+  text-align: end;
+  font-size: 2em;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+}
+.formulario {
+  background-color: transparent;
+  size: 500px;
+  text-align: center;
+}
+.div {
+  background-color: transparent;
+  text-align: center;
+}
+.boton {
+  max-width: 1000px;
+  color: black;
+  background-color: aliceblue;
+}
+.consultas {
+  text-align: center;
+  color: black;
+}
+@media(max-width:576px){
+
+  
+
+ul li a {
+  color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  text-align: start;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 10px;
+  display: inline;
+  font-size: 1em;
+  
+}
+nav ul li {
+  text-align: start;
+}
+.titulohome{
+  text-align: center;
+}
+.paginashome{
+  text-align: center;
+}
+.subtitulohome{
+  text-align: center;
+}
+.division{
+  text-align: center;
+}
+.subsub1{
+  text-align: center;
+}
+.fondohome{
+  background-size:inherit;
+}
+.titulomarcas{
+  text-align: center;
+}
+.paginasmarcas{
+  text-align: center;
+}
+}
